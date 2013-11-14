@@ -1,6 +1,7 @@
 GamingApp::Application.routes.draw do
   get "games", to: "games#index"
-  get "debug/:message", to: "games#debug"
+end
+  #get "debug/:message", to: "games#debug"
 
 # get("games", to: 'games#index') 
 
@@ -58,4 +59,3 @@ GamingApp::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
